@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-  var code = window.location.href.split('?code=')
+  var code = window.location.href.split('?code=')[1];
   window.location.href = 'http://192.168.1.28:3001/?code='+ code;
 </script>
 </body>
